@@ -18,7 +18,10 @@ A modern Sudoku web application featuring puzzle generation and solving using Ja
 - Recursion
 
 ## Project Structure
+
+```text
 sudoku-dsa-project/
+│
 ├── src/
 │   ├── App.java
 │   ├── SudokuGenerator.java
@@ -28,6 +31,7 @@ sudoku-dsa-project/
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
+```
 
 ## How It Works
 The frontend interacts with Java-based Sudoku generation and solving logic through a lightweight HTTP server. The Sudoku solver uses recursion and backtracking to efficiently solve puzzles.
